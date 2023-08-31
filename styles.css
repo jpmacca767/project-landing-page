@@ -1,0 +1,205 @@
+/* CSS Style Sheet for Project: Landing Page */
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #1f2937; 
+}
+
+
+.header-container {
+    display: column;   
+    font-size: 24px;
+    color: #F9FAF8; 
+    align-items: center;
+    justify-content: space-between; 
+    padding: 40px;
+    /*border: 2px dashed white;*/    
+}
+
+.top-section {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-start; 
+    /*border: 2px dashed grey;*/
+        
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a { 
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter; 
+    text-decoration: none; 
+}
+
+.bottom-section {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between; 
+    /*border: 2px dashed blue;*/
+}
+
+.bottom-text {
+    display: column;
+    padding: 2px;
+    /*border: 2px dashed red;*/
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 7px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter; 
+    margin-bottom: 7px;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8; 
+    padding: 7px;
+          
+}
+
+.button-1 {
+    border-color: #3882F6;
+    border-radius: 7px;  
+    
+}  
+
+.image-grid {
+    display: flex;
+    justify-content: end;
+    max-width: 75%;
+    /*border: 2px dashed purple;*/
+}
+
+.main-image {
+    max-width: 75%;
+}
+
+.information-header-text {
+    background: white; 
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-top: 15px;
+    /*border: 2px dashed blue;*/
+}
+
+.random-info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    background: white;
+    border: white;
+    padding: 40px;
+    /*border: 2px dashed green;*/
+    
+}
+
+.info {
+    max-width: 250px; 
+    text-align-last: center; 
+    /*border: 2px dashed yellow;*/    
+  }
+
+.info-image {
+    width: 250px;
+    height: 250px;
+    /*border: 2px dashed red;*/
+    border-radius: 25px;
+}
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 40px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    padding: 40px;
+    max-width: 1000px;
+}
+
+figcaption {
+    display: flex;
+    justify-content: right;
+    font-weight: 900;
+    align-self: right;
+}
+
+/* SIGN UP */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.container button {
+    border: 2px solid #FFF;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+       
+}
+
+.right {
+    flex-shrink: 0;    
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 1em;
+     
+  }
+
